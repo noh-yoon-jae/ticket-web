@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <!--<link rel="stylesheet" href="/tailwind/styles.css" />-->
+    <script src="/public/user/js/mypage.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/public/user/css/mypage.css" />
+    <title>mypage</title>
+  </head>
+  <body>
+    <!--$--><!--/$-->
+    <div class="bg-black text-white min-h-screen p-4">
+      <div class="flex items-center justify-between">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          class="text-white"
+        >
+          <path d="m12 19-7-7 7-7"></path>
+          <path d="M19 12H5"></path></svg
+        ><button
+          class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-primary/90 h-10 bg-blue-600 text-white py-1 px-4 rounded-md"
+        >
+          학교 바꾸기
+        </button>
+      </div>
+      <h1 class="text-3xl font-bold mt-4">성동고등학교</h1>
+      <p class="text-lg mt-2">3학년 5반</p>
+      <div class="flex items-center justify-between mt-4">
+        <p class="text-lg">매일 아침 알림 받기</p>
+        <button
+          type="button"
+          role="switch"
+          aria-checked="false"
+          data-state="unchecked"
+          value="on"
+          class="peer inline-flex h-[24px] w-[44px] shrink-0 cursor-pointer items-center rounded-full border-2 border-transparent transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background disabled:cursor-not-allowed disabled:opacity-50 data-[state=checked]:bg-primary data-[state=unchecked]:bg-input"
+          id="daily-alarm"
+        >
+          <span
+            data-state="unchecked"
+            class="pointer-events-none block h-5 w-5 rounded-full bg-background shadow-lg ring-0 transition-transform data-[state=checked]:translate-x-5 data-[state=unchecked]:translate-x-0"
+          ></span>
+        </button>
+      </div>
+      <hr class="my-6 border-gray-600" />
+      <div class="flex justify-between items-center">
+        <h2 class="text-2xl font-bold">4월 8일 월요일</h2>
+        <button
+          class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-primary/90 h-10 bg-blue-600 text-white py-1 px-4 rounded-md"
+        >
+          오늘
+        </button>
+      </div>
+      <div class="flex justify-between items-center mt-4">
+        <p class="text-lg">점심</p>
+        <p class="text-lg">736.2 kcal</p>
+      </div>
+      <p class="text-lg mt-2">
+        콩나물밥밥, 배추된장국(자반 10), 스크램블에그(5), 깍두기(9), 파인애플,
+        핫도그&amp;케첩(16)
+      </p>
+    </div>
+  </body>
+</html>
